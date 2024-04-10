@@ -5,11 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "manoj": "nodemon index.js",
+    "dev": "npm run manoj",
+    "watch": "nodemon index.js"
   },
   "author": "Zeke",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "pokemon": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
   }
 }
